@@ -1,0 +1,48 @@
+torch.cat(ds1, ds2) - concatenates data sets
+
+train_set = torch.cat(threes_ds, sevens_ds)
+
+------------
+torch.view(dim1, dim2, dim3) - changes the shape of a tensor
+
+train_ds.view(-1, 28*28) - -1 oznacza że wymiar zostanie dopasowany na post. rozmiaru danych wejściowych
+
+-------------
+torch.unsqueeze(1) - dodaje dodatkowy wymiar do tensora od rozmiarze 1
+
+-------------
+tensor.requires_grad_() - undersocre na końcu wskazuje że metoda modyfikuje obiekt na którym działa
+
+--------------
+
+torch.where(tensor == 1, result, 1-result) - działa jak pętla z warunkiem if
+
+--------------
+
+torch.stack(t1, t2, dim=x) - łączy tensory t1, t2...
+
+--------------
+
+torch.softmax(tensor, dim=1)
+--------------
+
+tensor.sigmoid() - liczy 1/1+exp(-x) - tj. wartość f. logistycznej dla tensora
+
+
+--------------
+torch.linspace(3, 10, steps=5) - zwraca 1dim tensor'a z równo rozłożonymi wartościami (ilość elementów=steps) od start=3 do stop = 10,
+tensor([  3.0000,   4.7500,   6.5000,   8.2500,  10.0000])
+
+--------------
+torch.DataLoader - użyteczna klasa do manipulacji na zbiorach danych. Pomyślana tak że trzyma tuple (x, y)
+
+x - zm. określająca
+y - zm. określana
+
+
+elements = range(15)
+dl = DataLoader(elements, batch_size=5, shuffle=True)
+l = list(dl)
+print(l)
+
+otrzymamy trzy listy po 5 elementów każda z wymieszanymi elementami.
