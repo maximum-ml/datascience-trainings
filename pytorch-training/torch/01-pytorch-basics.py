@@ -44,7 +44,7 @@ print(f't7={t7}')
 
 ##########################################################
 
-x = torch.tensor(3.)
+x = torch.tensor(3., requires_grad=True)
 w = torch.tensor(4., requires_grad=True)
 b = torch.tensor(5., requires_grad=True)
 
@@ -57,6 +57,6 @@ yb = y.backward()
 print(f'yb={yb}')
 
 # Display gradients
-print('dy/dx:', x.grad)
-print('dy/dw:', w.grad)
-print('dy/db:', b.grad)
+print('dy/dx(x):', x.grad)
+print('dy/dw(w):', w.grad)
+print('dy/db(b):', b.grad)
