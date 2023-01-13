@@ -1,0 +1,15 @@
+artifact_uri: file:///home/wojtek/Workspace/max-ml/datascience-trainings/mlflow-training/mlruns/0/2b3994f1e35945f887df9cc93351969e/artifacts
+end_time: 1667843855405
+entry_point_name: ''
+experiment_id: '1'
+lifecycle_stage: active
+run_id: 2b3994f1e35945f887df9cc93351969e
+run_name: upset-swan-15
+run_uuid: 2b3994f1e35945f887df9cc93351969e
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1667843853863
+status: 3
+tags: []
+user_id: wojtek

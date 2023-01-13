@@ -1,0 +1,15 @@
+artifact_uri: file:///home/wojtek/Workspace/max-ml/datascience-trainings/mlflow-training/mlruns/0/585afced076c47fcac279c5e0d290173/artifacts
+end_time: 1667772269930
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 585afced076c47fcac279c5e0d290173
+run_name: skillful-fowl-194
+run_uuid: 585afced076c47fcac279c5e0d290173
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1667768785476
+status: 3
+tags: []
+user_id: wojtek

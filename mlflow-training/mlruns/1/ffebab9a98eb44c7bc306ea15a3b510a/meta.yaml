@@ -1,0 +1,16 @@
+artifact_uri: file:///home/wojtek/Workspace/max-ml/datascience-trainings/mlflow-training/mlruns/0/ffebab9a98eb44c7bc306ea15a3b510a/artifacts
+deleted_time: 1667846782012
+end_time: 1667845031232
+entry_point_name: ''
+experiment_id: '1'
+lifecycle_stage: deleted
+run_id: ffebab9a98eb44c7bc306ea15a3b510a
+run_name: adorable-bear-594
+run_uuid: ffebab9a98eb44c7bc306ea15a3b510a
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1667845031224
+status: 3
+tags: []
+user_id: wojtek

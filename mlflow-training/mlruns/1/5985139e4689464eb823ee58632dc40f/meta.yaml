@@ -1,0 +1,15 @@
+artifact_uri: file:///home/wojtek/Workspace/max-ml/datascience-trainings/mlflow-training/mlruns/1/5985139e4689464eb823ee58632dc40f/artifacts
+end_time: 1667846458481
+entry_point_name: ''
+experiment_id: '1'
+lifecycle_stage: active
+run_id: 5985139e4689464eb823ee58632dc40f
+run_name: glamorous-fowl-374
+run_uuid: 5985139e4689464eb823ee58632dc40f
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1667846457349
+status: 3
+tags: []
+user_id: wojtek

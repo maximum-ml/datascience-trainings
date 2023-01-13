@@ -1,0 +1,15 @@
+artifact_uri: file:///home/wojtek/Workspace/max-ml/datascience-trainings/mlflow-training/mlruns/0/8aa74905325c44dabeb7b7153c46ee84/artifacts
+end_time: 1667844877336
+entry_point_name: ''
+experiment_id: '1'
+lifecycle_stage: active
+run_id: 8aa74905325c44dabeb7b7153c46ee84
+run_name: bedecked-moose-237
+run_uuid: 8aa74905325c44dabeb7b7153c46ee84
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1667844876304
+status: 3
+tags: []
+user_id: wojtek
